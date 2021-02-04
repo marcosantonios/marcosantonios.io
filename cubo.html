@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+ <head>
+  <title> cubo </title>
+
+  <style>
+
+  @keyframes animacao{
+
+  0%{
+  background-color: #4b0082;
+  border: 10px solid #ff0000;
+  border-style: inset;
+  transform: rotate(0deg);
+  }
+
+  25%{
+  background-color: #7fffd4;
+  border: 10px solid #00ff00;
+  border-style: inset;
+  transform: rotate(36deg);
+  }
+
+  50%{
+  background-color: #00ff00;
+  border: 10px solid #00f99a;
+  border-style: inset;
+  transform: rotate(72deg);
+  }
+
+  75%{
+  background-color: #0000ff;
+  border: 10px solid #ff0000;
+  border-style: inset;
+  transform: rotate(108deg);
+  }
+
+  100%{
+  background-color: #008080;
+  border: 10px solid #5f9ea0;
+  border-style: inset;
+  transform: rotate(180deg);
+  }
+
+}
+
+  body{
+  background-color: #00008b;
+  }
+
+  .geral{
+   margin-left: 30%;
+   margin-top: 10%;
+   width: 400px;
+   height: 400px;
+   background-color: #ff0000;
+   border: 10px solid #00ffff;
+   border-style: inset;
+   animation-name: animacao;
+   animation-delay: 2s;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   }
+
+  </style>
+ </head>
+ <body>
+
+  <div class="geral">
+   
+  </div>
+
+ </body>
+</html>
